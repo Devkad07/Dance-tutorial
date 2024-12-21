@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#navbar{
+    background-color: #d43b3b;
+    font-family: "Playwrite US Trad", cursive;
+    padding: 0px 44px;
+}
+#logo{
+    display: flex;
+    color: rgba(21, 21, 125, 0.933);
+    align-items: center;
+    margin: 0 14px;
+    font-size: 15px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 70px;
+    border-radius: 10px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 15px 4px 15px 3px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 30px 30px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Playwrite US Trad", cursive;
+    font-size: 45px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/dance.jpg") ;
+    height: 709px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#missionSection{
+    height: 345px;
+    background-color: #f9f5f5c7;
+}
+#missionSection h2{
+    font-size: 36px;
+    font-family: "Playwrite US Trad", cursive;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 30%;
+    margin: 26px 16px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: "Playwrite US Trad", cursive;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+    border-radius: 10px;
+}
+.card-img img{
+    height: inherit; 
+    border-radius: 10px;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 19px;
+    font-family: "Playwrite US Trad", cursive;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: #fbd6d6c7;
+}
+#sponsorsSection h2{
+    font-size: 36px;
+    font-family: "Playwrite US Trad", cursive;
+    text-align: center;
+    padding: 12px 12px;
+}
+#sponsors{
+    height: 191px;
+    max-width: 1000px;
+    margin: -35px auto;
+}
+.spImage{
+    height: 80px;
+    margin: 80px;
+    border-radius: 10px;
+}
+#footer{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 35px;
+}

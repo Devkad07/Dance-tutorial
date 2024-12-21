@@ -1,0 +1,22 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Deepak dance academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/images/logo.png")
+                | DDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    block content
+    block foot
+    footer#footer
+        | Copyright © 2024 DeepakAcademy.com | All Rights Reserved 
